@@ -1,0 +1,25 @@
+.footer_prop{
+    height: 170px;
+    background-color: $raisin-black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $blanco;
+    font-size: $large;
+    flex-wrap: wrap;
+}
+
+.footer_links{
+    display: flex;
+    width: 24%;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px){
+
+    .footer_links{
+    width: 90%;
+    justify-content: space-around;
+    }
+}
+

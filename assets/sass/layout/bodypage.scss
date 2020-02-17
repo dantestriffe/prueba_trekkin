@@ -1,0 +1,43 @@
+.bodypage{
+    text-align: center;
+    font-size: $large;
+    margin-top: 70px;
+}
+
+.body-parrafo{
+    text-align: left;
+    line-height: 1.6;
+    font-family: $open-sans;
+    padding-top: 30px;
+}
+
+.body-parrafo h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.graph{
+   width: 100%;
+   animation-name: graf;   
+   animation-duration: 4s;
+   animation-delay: 2s;
+   animation-fill-mode: backwards;
+}
+
+@keyframes graf{
+    0% {opacity: 0%;}
+    50% {opacity: 50%;}
+    100%{opacity: 100%;}
+}
+
+.graph-container{
+    margin-right: 21%;
+    
+    padding-top: 40px;
+}
+
+@media (max-width: 768px){
+    .graph-container{
+    margin-right: 0;
+    }
+}

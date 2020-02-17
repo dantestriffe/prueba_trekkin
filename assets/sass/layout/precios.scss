@@ -1,0 +1,90 @@
+.bg-precio{
+  background-image: url(file:///C:/Users/user/Documents/startup-trekkin/assets/imagenes/bg-price.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.cards{
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    padding-top: 70px;
+    width: 100%;
+    
+}
+
+.cards :hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+
+.titulo-precio{
+    text-align: center;
+    padding-top: 300px;
+    color: $blanco;
+}
+
+.card-content{
+    width: 60%;
+    background-color: $blanco;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.titulo-card{
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+.mes-card{
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.list-card{
+    margin-bottom: 13px;
+    padding-left: 40px;
+    list-style: disc;
+    line-height: 3;
+}
+
+.list-item{
+    margin-bottom: 160px;
+}
+
+.button-card{
+    margin-top: 25px;
+    width: 100%;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px){
+    .cards{
+        width: 35%;
+    }
+}
+
+@media (max-width: 768px){
+    .card-content{
+        width: 80%;
+        padding-top: 27px;
+    }
+    .mes-card{
+        margin-bottom: 15px;
+    }
+    .list-item{
+        margin-bottom: 210px;
+    }
+}

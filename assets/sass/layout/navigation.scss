@@ -1,0 +1,107 @@
+.logo{
+    font-size: 70px;
+    font-weight: $bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inicio-sesion{
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: $raleway;
+     display: flex;
+}
+
+.nav-buttons-content{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+
+}
+
+.registro-item{
+   
+    background-color: $ball-blue;
+    border: none;
+    color: $blanco;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 10% 0px 10%;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.nav-content-link{
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+}
+
+.nav-registro{
+    padding-right: 30px;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+@media (max-width: 767.98px) {
+
+ 
+    .nav-content-link{
+        display: block;
+        
+        width: 100%;
+    }
+
+    .nav-items{
+        display: block;
+        width: 100%;
+    }
+
+    a{
+        display: block;
+        line-height: 4;
+    }
+
+    .nav-buttons-content{
+        display: block;
+        height: 80px;
+    }
+}
+
+

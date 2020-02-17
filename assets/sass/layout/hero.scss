@@ -1,0 +1,45 @@
+.titulo-hero{
+    font-size: $xxxx-large;
+    font-family: $raleway;
+    line-height: 1.4;
+    margin-top: 60px;
+}
+
+.parrafo-hero{
+    font-size: $medium;
+    font-family: $open-sans;
+    line-height: 1.8;
+}
+
+.image-hero{
+    overflow: hidden;
+}
+
+#image-hero-cont{
+    width: 100%;
+}
+
+.text-hero{
+    position: absolute;
+    
+}
+
+@media (min-width: 760px){
+    .hero{
+        background-size: cover;       
+    }
+    .text-hero{
+        width: 28%;
+    }
+}
+
+@media (max-width: 760px){
+    #image-hero-cont{
+        width: 150%;
+        position: relative;
+        right: 50%;
+    }
+    .text-hero{
+        position: static;
+    }
+}
